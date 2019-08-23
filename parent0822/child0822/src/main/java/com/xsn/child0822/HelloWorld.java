@@ -1,13 +1,13 @@
 package com.xsn.child0822;
 
-import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.ResponseBody;
+import org.springframework.web.bind.annotation.RestController;
 
-@Controller
+import org.apache.log4j.Logger;
+@RestController
 public class HelloWorld {
     @RequestMapping("/")
-    public int hello() {
-        return 1;
+    public String hello() {
+        return "Hello World1123123";
     }
 }
