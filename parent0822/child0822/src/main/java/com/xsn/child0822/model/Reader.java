@@ -1,10 +1,13 @@
 package com.xsn.child0822.model;
 
+import com.alibaba.fastjson.annotation.JSONField;
+
 import java.util.Date;
 
 public class Reader {
     private String name;
     private int id;
+    @JSONField(format = "yyyy-MM-dd HH:mm:ss")
     private Date date;
 
     public String getName() {
