@@ -1,10 +1,12 @@
 package com.xsn.child0822.service;
 
 import org.springframework.scheduling.annotation.AsyncResult;
+import org.springframework.stereotype.Service;
 
 import java.util.Random;
 import java.util.concurrent.Future;
 
+@Service
 public class AsyncServiceImpl implements AsyncService {
     private static Random random = new Random();
     @Override
