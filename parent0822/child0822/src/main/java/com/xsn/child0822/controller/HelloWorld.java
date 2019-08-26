@@ -1,4 +1,4 @@
-package com.xsn.child0822;
+package com.xsn.child0822.controller;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.http.converter.StringHttpMessageConverter;

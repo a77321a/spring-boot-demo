@@ -1,5 +1,6 @@
 package com.xsn.child0822;
 
+import com.xsn.child0822.controller.HelloWorld;
 import junit.framework.TestCase;
 import org.junit.Test;
 import org.junit.runner.RunWith;
