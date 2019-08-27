@@ -25,8 +25,7 @@ public class Child0822Application extends WebMvcConfigurationSupport {
 
     @Bean
     public StringHttpMessageConverter stringHttpMessageConverter(){
-        StringHttpMessageConverter convert = new StringHttpMessageConverter(Charset.forName("utf-8"));
-
+        StringHttpMessageConverter convert = new StringHttpMessageConverter(Charset.forName("UTF-8"));
         return convert;
     }
 //    重写configureMessageConverters 配置消息转换器
@@ -41,7 +40,7 @@ public class Child0822Application extends WebMvcConfigurationSupport {
         fastConverter.setFastJsonConfig(fastJsonConfig);
         //4、将convert添加到converters中
         converters.add(fastConverter);
-        converters.add(stringHttpMessageConverter());
+//        converters.add(stringHttpMessageConverter());
 
         //5、追加默认转换器
         super.addDefaultHttpMessageConverters(converters);

@@ -14,7 +14,7 @@ public class ConvertJSON {
     public Object user(){
         Reader users = new Reader();
         users.setId(55);
-        users.setName("啥的");
+        users.setName("汉字");
         users.setDate(new Date());
         return users;
     }
