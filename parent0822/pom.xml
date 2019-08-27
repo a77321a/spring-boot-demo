@@ -13,6 +13,7 @@
     <version>1.0-SNAPSHOT</version>
     <modules>
         <module>child0822</module>
+        <module>jsp-demo</module>
     </modules>
     <dependencies>
     <!-- 屏蔽springboot logback 并使用log4j       -->
