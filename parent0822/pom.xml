@@ -15,6 +15,7 @@
         <module>child0822</module>
         <module>jsp-demo</module>
         <module>mybatis-demo</module>
+        <module>jpa-demo</module>
     </modules>
     <dependencies>
     <!-- 屏蔽springboot logback 并使用log4j       -->

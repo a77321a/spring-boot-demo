@@ -17,7 +17,7 @@ public class UsersController {
     @RequestMapping("/addUser")
     public String insertUser(){
         Users users = new Users();
-        users.setName("张三");
+        users.setName("王欢11");
         users.setPassword("88888");
         usersService.insertUser(users);
         return "ok";
