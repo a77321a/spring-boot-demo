@@ -21,7 +21,7 @@ public class EmailSend {
     @RequestMapping("/attch")
     public String sendAttachmentEmail(){
         File file = new File("src/main/resource/static/major.vue");
-        emailService.sendEmail("1817169988@qq.com","这是附件邮件标题","这是附件邮件内容");
+        emailService.sendEmail("1817169988@qq.com","12这是附件邮件标题","这是附件邮件内容");
         return "success";
     }
 }
