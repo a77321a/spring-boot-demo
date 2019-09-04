@@ -17,6 +17,7 @@
         <module>mybatis-demo</module>
         <module>jpa-demo</module>
         <module>mail-demo</module>
+        <module>uploadfile</module>
     </modules>
     <dependencies>
     <!-- 屏蔽springboot logback 并使用log4j       -->
@@ -88,6 +89,10 @@
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-mail</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-thymeleaf</artifactId>
         </dependency>
     </dependencies>
     <packaging>pom</packaging>
