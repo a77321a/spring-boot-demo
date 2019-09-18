@@ -5,7 +5,6 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration;
 import org.springframework.stereotype.Component;
 
-@Component
 @SpringBootApplication(exclude= {DataSourceAutoConfiguration.class})
     public class ActivemqDemoApplication {
 
