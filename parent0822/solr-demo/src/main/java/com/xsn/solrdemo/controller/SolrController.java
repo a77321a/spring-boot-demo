@@ -16,6 +16,7 @@ public class SolrController {
     private SolrClient solrClient;
     @RequestMapping("/solr")
     public String solrTes() throws IOException, SolrServerException {
+        SolrDocument doc = solrClient.getById("*");
         return doc.toString();
     }
 }
